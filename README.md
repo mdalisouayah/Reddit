@@ -68,7 +68,7 @@ The TF-IDF was used in lieu of the countVectorizer but did not improve the resul
 ### Testing the model:
 The model tested well with live data except with the expression "school shooting" which was taken as a 'funny' subject when it is clearly not!
 **Here is a snapshot of the live data test:**
-![Examples Vs. Predictions](./images/ExampleVsPrediction.png)
+![Examples Vs. Predictions]('./images/ExampleVsPrediction.png')
 
 ### Final recommendations and future steps
 
