@@ -3,7 +3,7 @@
 ## Introduction
 
 
-The objective of this project is to train our model to classify a subreddit post into one of two categories. The subreddits chosen are [World news] ['www.reddit.com/worldnews'] and [Funny] ['www.reddit.com/funny].
+The objective of this project is to use Natural Language Processing (NLP) to train our model in the classification of subreddit posts into one of two categories. The subreddits chosen are [World news] ['www.reddit.com/worldnews'] and [Funny] ['www.reddit.com/funny].
 
 Given the discrete nature of the target classes, a classification model is needed. The different models used are evaluated based on the (default) accuracy score.
 
@@ -45,7 +45,7 @@ given that for each extraction the index resets to 0 and that for each subreddit
 
 ### Setting the model:
 
-The problem has been defined as a classification problem. Accordingly, several models have been considered. As for the 'text extraction' technique, the **countVectorizer** and the **TfidfVectorizer** were put to compete. As for the classification model, the **Multitnomial Naive Bayes** and the **logistic regression** were put to compete.
+The problem has been defined as a classification problem. Accordingly, several models have been considered. As for the NLP 'text extraction' technique, the **countVectorizer** and the **TfidfVectorizer** were put to compete. As for the classification model, the **Multitnomial Naive Bayes** and the **logistic regression** were put to compete.
 
 #### Feature creation:
 
