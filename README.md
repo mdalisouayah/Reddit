@@ -1,4 +1,4 @@
-# Project 3 - Reddit API
+# Reddit API project
 
 ## Introduction
 
