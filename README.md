@@ -37,7 +37,7 @@ In fact, only the title subreddit was retained as the predicting feature.
 
 Given that the data extraction is limited to 1000 posts and that for every inquiry the latest 1000 posts are extracted, when there were no new 1000 posts within the 24 hours, duplicate posts are extracted. At a later stage of the process those duplicates were not dropped, in attempt to boost the score by bootstrapping. the result was a stuggering 99.15% score on the test data! But then, I realized that the model might have been trained on data that also appeared in the test data.
 
-**resetting the index **
+**resetting the index**
 
 given that for each extraction the index resets to 0 and that for each subreddit the index starts at 0, several indeces shared the same index, which needed cleaning.
 
