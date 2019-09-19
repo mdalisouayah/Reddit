@@ -63,11 +63,13 @@ The first model that was run was the Logistic Regression, which resulted in a 89
 The Multinomial Naive Bayes model was used to attempt to reduce the variance, which it did, bringing the test score to 94% while the training score also went up to 99%, partially offsetting the reduction in the overfit.
 The TF-IDF was used in lieu of the countVectorizer but did not improve the result.
 **Here is the confusion matrix resulting from the best model:**
+
 ![Confusion Matrix](./images/ConfusionMatrix.png)
 
 ### Testing the model:
 The model tested well with live data except with the expression "school shooting" which was taken as a 'funny' subject when it is clearly not!
 **Here is a snapshot of the live data test:**
+
 ![Examples Vs. Predictions](./images/ExampleVsPrediction.png)
 
 ### Final recommendations and future steps
